@@ -1,4 +1,12 @@
 {
+  "name": "vue-webpack-boilerplate-api",
+  "description": "Server-side implementation for vue-webpack-boilerplate",
+  "author": "re-fort",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/re-fort/vue-webpack-boilerplate-api.git"
+  },
   "scripts": {
     "start": "node main.js",
     "lint": "eslint .",
