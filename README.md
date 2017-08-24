@@ -1,3 +1,5 @@
+[![CircleCI](https://circleci.com/gh/re-fort/vue-webpack-boilerplate-api/tree/master.svg?style=svg&circle-token=ef543da7ff23a2eb77538f640c932376d8c7f231)](https://circleci.com/gh/re-fort/vue-webpack-boilerplate-api/tree/master)
+
 vue-webpack-boilerplate-api
 ======================
 
