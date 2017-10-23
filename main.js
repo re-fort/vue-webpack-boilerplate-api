@@ -65,6 +65,10 @@ app.get(url.USER_FOLLOWING, function (req, res) {
   return api.fetchUserFollowing(req, res, token)
 })
 
+app.get(url.PING, function (req, res) {
+  res.end(JSON.stringify({ message: 'pong' }))
+})
+
 githubOAuth.on('error', function (err, res) {
   console.error('there was an auth error', err)
   res.statusCode = 400
