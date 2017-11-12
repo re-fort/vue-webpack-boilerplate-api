@@ -11,6 +11,9 @@ git clone https://github.com/re-fort/vue-webpack-boilerplate-api
 cd vue-webpack-boilerplate-api
 npm i # or yarn install
 cp .env.sample .env
+# if you check behavior with mock server
+npm run mock # or yarn run mock
+# else
 vi .env # set `GITHUB_CLIENT`, `GITHUB_SECRET`, `JWT_SECRET`
 npm start # or yarn start
 ```
