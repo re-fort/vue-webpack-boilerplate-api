@@ -9,6 +9,7 @@
   },
   "scripts": {
     "start": "node main.js",
+    "mock": "node mock.js",
     "lint": "eslint .",
     "test": "mocha test --timeout 10000"
   },
